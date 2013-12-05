@@ -25,12 +25,12 @@
 
 #import "SLRESTfulCoreData.h"
 #import "AFNetworking.h"
-
+#import "BDBOAuth1Manager.h"
 
 
 /**
  @abstract  <#abstract comment#>
  */
-@interface AFRESTfulCoreDataBackgroundQueue : AFHTTPRequestOperationManager <SLRESTfulCoreDataBackgroundQueue>
+@interface AFRESTfulCoreDataBackgroundQueue : BDBOAuth1Manager <SLRESTfulCoreDataBackgroundQueue>
 
 @end

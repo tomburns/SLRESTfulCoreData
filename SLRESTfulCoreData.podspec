@@ -42,5 +42,6 @@ Pod::Spec.new do |spec|
 
     sp.dependency 'AFNetworking', '~> 2.0'
     sp.dependency 'SLCoreDataStack', '>= 0.2.0'
+    sp.dependency 'BDBOAuth1Manager', '~> 1.0'
   end
 end
